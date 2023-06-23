@@ -1,0 +1,66 @@
+body {
+     /*background-image: url("https://images.unsplash.com/photo-1687201363580-1cd1bb33c2b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+     */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: yellow;
+    overflow-x: hidden;
+  }
+  
+  .headerItem {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+  
+  #home:hover, #about:hover, #contactUs:hover {
+    color: rgb(8, 24, 247);
+  }
+  
+  @keyframes birdsFlying {
+    0% {
+      left: 100vw;
+    }
+    100% {
+      left: -200vw;
+    }
+  }
+  center{
+    position: relative;
+    top:75px ;
+  }
+  #birdsContainer {
+    position: absolute;
+    top: 10vw;
+    animation-name: birdsFlying;
+    animation-delay: 0s;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: -1;
+  }
+  
+  #welcome {
+    color: white;
+    position: fixed;
+    text-align: center;
+    height: 50vw;
+    line-height: 50vw;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  #week1 {
+    float:left;
+    background-color: blue;
+    position:relative;
+    top:150px;
+    width: 24%;
+    height:200px ;
+    margin:1px ;
+    
+
+  }
