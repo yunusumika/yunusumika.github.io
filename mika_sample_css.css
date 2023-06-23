@@ -3,7 +3,7 @@ body {
      */
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #FFFFF0;
+    background-color: yellow;
     overflow-x: hidden;
   }
   
@@ -55,7 +55,7 @@ body {
   }
   #week1 {
     float:left;
-    background-color: blue;
+    background-color: #FFFFF0;
     position:relative;
     top:150px;
     width: 24%;
